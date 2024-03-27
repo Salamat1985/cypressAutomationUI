@@ -10,7 +10,7 @@
 // let stringNumber:string = "5"
 // let stringNumber2:number = "5"
 //examples
-let a = 5
+let a: number = 5.01
 let b = 6
 let number:number | string = 8
 let testString:string = "8"
@@ -32,7 +32,7 @@ function fullName(a:stringTestType,b:stringTestType):void {
     console.log('My full name is ' + a.lastName + ' ' + b.firstName);
 }
 let obj = {
-    key:val
+    key: val
 }
 string2(2,"2")
 string2(2,2)
